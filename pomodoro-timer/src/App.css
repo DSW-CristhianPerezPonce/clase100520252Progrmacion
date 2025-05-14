@@ -1,4 +1,10 @@
-body{
+:root{
+    --red: #f54e4e;
+    --green: #4aec8c;
+}
+
+body{ 
+
     background-color: #38384b;
     color: #eee;
     
@@ -17,4 +23,26 @@ button{
     display: inline-block;
     width: 100px;
 
+}
+
+button.with-text{
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.8rem;
+    line-height: 36px;
+    
+}
+button.with-text svg{
+ width: 36px;
+ float: left ;
+margin-right: 5px; 
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-transform: capitalize;
 }
